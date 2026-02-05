@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("assets/background.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: rgba(0,0,0,0.6);
+}
+
+.topbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  position: relative;
+}
+
+.hero-text {
+  max-width: 45%;
+}
+
+.hero-text span {
+  color: gold;
+}
+
+.hero-girl {
+  position: absolute;
+  right: 8%;
+  bottom: 0;
+  max-height: 80vh;
+}
+
+.games {
+  padding: 80px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid img {
+  width: 100%;
+  background: #2b1645;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.signup {
+  background: rgba(0,0,0,0.6);
+  padding: 60px;
+  text-align: center;
+}
+
+.signup input {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.signup button {
+  padding: 12px 30px;
+  background: gold;
+  border: none;
+  border-radius: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0,0,0,0.7);
+}
